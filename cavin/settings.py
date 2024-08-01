@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-@05jkmip8=d%fg27xl8c0=ioh9n!4ilys=c2*1$-0unp4h9vuj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['e-commerce-g25v.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = [ 'dairy-products.onrender.com','localhost', '127.0.0.1']
 
 
 
