@@ -143,10 +143,10 @@ class checkout(View):
             famount= value + famount
         totalamount=famount + 40
         razoramount=int(totalamount*100)
-        client=razorpay.Client(auth=(settings.RAZOR_KEY_ID,settings.RAZOR_KEY_SECRET))
-        data={"amount" : razoramount, "currency": "INR", "receipt":"order_rcptid_12"}
-        payment_response=client.order.create(data=data)
-        print(payment_response)
+        #client=razorpay.Client(auth=(settings.RAZOR_KEY_ID,settings.RAZOR_KEY_SECRET))
+        #data={"amount" : razoramount, "currency": "INR", "receipt":"order_rcptid_12"}
+        #payment_response=client.order.create(data=data)
+        #print(payment_response)
         return render(request,'app/checkout.html',locals())
 
 
